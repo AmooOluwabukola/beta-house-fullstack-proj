@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+/* hero */
+.hero {
+  background-image: url("../assets/heroimg.svg");
+  background-size: cover;
+ 
+
+}
+
+
+
+.hero-search {
+  border: 1px solid white;
+/* background-color: aliceblue; */
+}
+
+.location{
+  /* margin-top: 2px; */
+  margin-bottom: 10px;
+}
+.property{
+  /* margin-top: 1rem; */
+  margin-bottom: 10px;
+}
+
+.bed{
+  /* margin-top: 1rem; */
+  margin-bottom: 10px;
+}
+
+.search-form {
+  background-color: white !important;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  font-family: "Outfit", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.4000000059604645px;
+  text-align: left;
+}
+
+.find-property {
+  background-color: hsla(153, 43%, 42%, 1);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 71.02px;
+  text-align: center;
+}
+.circle-button {
+  border: 1px solid;
+  border-radius: 50%;
+  padding-top: 3px;
+  margin-top: 3px;
+  text-align: center;
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.bedroom {
+  margin-right: 3rem;
+  /* margin-top: auto; */
+}
+
+.submit-btn {
+  background-color: hsla(153, 43%, 42%, 1);
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* navbar */
+.nav-bag {
+  top: 4.6rem;
+  right: 5rem;
+}
+
+.first-div {
+  margin-bottom: -0.5rem;
+}
+
+.nav-link {
+  font-family: "Outfit", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: left;
+}
+.nav-link:focus {
+  border-bottom: 2px solid #ccc;
+}
+
+/* home */
+.feature-btn {
+  color: white !important;
+  border: 1px solid hsla(153, 43%, 42%, 1) !important;
+  border-radius: 2px;
+  background-color: hsla(153, 43%, 42%, 1) !important;
+  padding: 5px 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.sale-btn {
+  color: white !important;
+  border-radius: 2px;
+  border: 2px solid hsla(240, 1%, 83%, 0.7) !important;
+  background-color: hsla(240, 1%, 83%, 0.7) !important;
+  padding: 5px 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.feature {
+  display: flex;
+  gap: 10rem;
+}
+
+.select {
+  font-family: "Outfit", sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+}
+
+
+/* footer*/
+
+.heading{
+  font-family: "Outfit", sans-serif;
+font-size: 23px;
+font-weight: 600;
+line-height: 27.6px;
+text-align: left;
+
+}
+
+
+.discover-text{
+  font-family:  "Outfit", sans-serif;
+font-size: 16px;
+font-weight: 400;
+line-height: 25.6px;
+text-align: left;
+
+}
+.footer-links{
+  font-family:  "Outfit", sans-serif;
+/* font-size: 10px; */
+font-size: 18px;
+font-weight: 400;
+line-height: 28.8px;
+text-align: left;
+margin-bottom: 10px;
+
+
+}
+.copyright{
+  font-family: "Poppins", sans-serif;
+font-size: 10px;
+font-weight: 400;
+line-height: 21px;
+text-align: left;
+
+}
+
+
+@media (max-width: 425px) {
+  .card-inner {
+    width: 100%;
+  }
+
+  .feature {
+    display: flex;
+    gap: 6rem;
+  }
+
+  .logo {
+    width: 50%;
+  }
+  .hero-search {
+    max-width: 375px;
+    width: 90%;
+  }
+
+  .search-form {
+    background-color: white !important;
+  
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    /* letter-spacing: 0.4000000059604645px; */
+    /* text-align: left; */
+  }
+
+  .search-form {
+    background-color: white !important;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 10px;
+    font-family: "Outfit", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.4000000059604645px;
+    text-align: left;
+  }
+  
+  .find-property {
+    background-color: hsla(153, 43%, 42%, 1);
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: "Outfit", sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 71.02px;
+    text-align: center;
+  }
+
+  .bedroom {
+    padding-left: 6rem;
+    /* text-align: center; */
+    margin-top: .6rem;
+  }
+  .circle-button {
+    border: 1px solid;
+    border-radius: 50%;
+    padding-top: 1px;
+    margin-top: 3px;
+    text-align: center;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+ 
+  
+  .submit-btn {
+    background-color: hsla(153, 43%, 42%, 1);
+    border: none;
+    /* padding: 5px 10px; */
+    font-size: 10px;
+    cursor: pointer;
+  }
+
+
+  .search{
+    border: 0;
+  }
+
+
+  .discover-text{
+    font-family:  "Outfit", sans-serif;
+font-size: 10px;
+font-weight: 400;
+line-height: 25.6px;
+text-align: center;
+
+  }
+
+  .footer-links{
+    font-family:  "Outfit", sans-serif;
+    text-align: center;
+ font-size: 10px;
+/* font-size: 18px; */
+font-weight: 400;
+line-height: 28.8px;
+text-align: center;
+margin-bottom: 1px;
+
+
+  }
+
+  .hero-search {
+    border: none;
+    margin-left: 4px;
+
+    /* flex-wrap: nowrap;
+    justify-content: space-between; */
+  }
+  
+  .property{
+    margin-top: 1rem;
+    margin-bottom: 5px;
+  }
+
+  .location{
+    display: flex;
+    justify-content: center;
+    margin-top: 2px;
+    margin-bottom: 5px;
+  }
+
+  .heading{
+  text-align: center;
+  margin-top: 2px;
+  }
+
+  /*  */
+  .footer-logo{
+   margin-left: 4rem;
+    width: 50%;
+  }
+
+  .copyright{
+    font-family: "Poppins", sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+text-align: center;
+
+  }
+}
+@media (min-width: 768px),(max-width:1024) {
+  .card-inner {
+    width: 100%;
+  }
+  .hero-search {
+    width: 100%;
+  }
+
+  .search-form {
+    background-color: white !important;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 10px;
+    font-family: "Outfit", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.4000000059604645px;
+    text-align: left;
+  }
+
+  .hero-search {
+    border: none;
+    margin-left: 4px;
+
+    /* flex-wrap: nowrap;
+    justify-content: space-between; */
+  }
+
+  .bedroom {
+    padding-left: 10rem;
+    /* text-align: center; */
+    margin-top: .6rem;
+  }
+}
+
+
