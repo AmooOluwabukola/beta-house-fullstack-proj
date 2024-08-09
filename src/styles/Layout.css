@@ -12,8 +12,8 @@
 
 
 .hero-search {
-  border: 1px solid white;
-/* background-color: aliceblue; */
+  /* border: 1px solid white; */
+background-color: #ffffff27;
 }
 
 .location{
@@ -170,7 +170,19 @@ text-align: left;
 }
 
 
-@media (max-width: 425px) {
+/* @media (max-width:320px) {
+  .hero-search{
+    max-width: 320px;
+    width: 100%;
+  }
+
+  .bedroom {
+    padding-left: 2rem;
+
+    margin-top: .6rem;
+  }
+} */
+@media(max-width: 425px) {
   .card-inner {
     width: 100%;
   }
@@ -185,7 +197,9 @@ text-align: left;
   }
   .hero-search {
     max-width: 375px;
-    width: 90%;
+    width: 100%;
+   
+
   }
 
   .search-form {
@@ -201,8 +215,9 @@ text-align: left;
   .search-form {
     background-color: white !important;
     border-top-left-radius: 10px;
-    border-bottom-left-radius: 0;
+    border-bottom-left-radius: 0px;
     border-top-right-radius: 10px;
+    border-bottom-right-radius: 0px;
     font-family: "Outfit", sans-serif;
     font-size: 14px;
     font-weight: 600;
@@ -224,7 +239,7 @@ text-align: left;
   }
 
   .bedroom {
-    padding-left: 6rem;
+    padding-left: 3rem;
     /* text-align: center; */
     margin-top: .6rem;
   }
@@ -245,7 +260,6 @@ text-align: left;
   .submit-btn {
     background-color: hsla(153, 43%, 42%, 1);
     border: none;
-    /* padding: 5px 10px; */
     font-size: 10px;
     cursor: pointer;
   }
@@ -269,7 +283,6 @@ text-align: center;
     font-family:  "Outfit", sans-serif;
     text-align: center;
  font-size: 10px;
-/* font-size: 18px; */
 font-weight: 400;
 line-height: 28.8px;
 text-align: center;
@@ -281,9 +294,6 @@ margin-bottom: 1px;
   .hero-search {
     border: none;
     margin-left: 4px;
-
-    /* flex-wrap: nowrap;
-    justify-content: space-between; */
   }
   
   .property{
@@ -318,7 +328,7 @@ text-align: center;
 
   }
 }
-@media (min-width: 768px),(max-width:1024) {
+@media (max-width: 768px) {
   .card-inner {
     width: 100%;
   }
@@ -328,9 +338,9 @@ text-align: center;
 
   .search-form {
     background-color: white !important;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 0;
-    border-top-right-radius: 10px;
+    border-top-left-radius: .7rem;
+    border-bottom-left-radius: .7rem;
+    border-top-right-radius: 0;
     font-family: "Outfit", sans-serif;
     font-size: 14px;
     font-weight: 600;
@@ -342,14 +352,10 @@ text-align: center;
   .hero-search {
     border: none;
     margin-left: 4px;
-
-    /* flex-wrap: nowrap;
-    justify-content: space-between; */
   }
 
   .bedroom {
-    padding-left: 10rem;
-    /* text-align: center; */
+    padding-left: 12rem;
     margin-top: .6rem;
   }
 }

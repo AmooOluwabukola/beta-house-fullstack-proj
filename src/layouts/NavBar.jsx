@@ -65,6 +65,36 @@ const NavBar = ({ userId }) => {
               {" "}
               <img src={logoimg} alt="" className="logo" />
             </Navbar.Brand>
+            <div
+              className="d-flex d-lg-none align-items-center  "
+              role="button"
+              onClick={handleDrop}
+            >
+              <img
+                src={bioProfile.profilePhoto}
+                alt=""
+                className=" border rounded-pill me-2"
+                style={{
+                  borderRadius: "100%",
+                  height: "2.5rem",
+                  width: "2.5rem",
+                }}
+              />
+              <div className="d-flex flex-row">
+                <span className="text-white">
+                
+                  {token ? <>  {bioProfile.firstName} {bioProfile.lastName}</> : <>get in </>}
+                </span>
+                <span className="" role="button" onClick={handleDrop}>
+                  {" "}
+                  {bagShow ? (
+                    <GoChevronUp className="text-white d-none d-lg-block mt-2" />
+                  ) : (
+                    <GoChevronDown className="text-white d-none d-lg-block mt-1" />
+                  )}{" "}
+                </span>
+              </div>
+            </div>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse
               id="basic-navbar-nav"
@@ -104,7 +134,7 @@ const NavBar = ({ userId }) => {
               </Nav>
             </Navbar.Collapse>
             <div
-              className="d-flex align-items-center  "
+              className="d-flex d-none d-lg-block align-items-center  "
               role="button"
               onClick={handleDrop}
             >
@@ -121,7 +151,7 @@ const NavBar = ({ userId }) => {
               <div className="d-flex flex-row">
                 <span className="text-white">
                 
-                  {token ? <>  {bioProfile.firstName} {bioProfile.lastName}</> : <>get in</>}
+                  {token ? <>  {bioProfile.firstName} {bioProfile.lastName}</> : <>get in </>}
                 </span>
                 <span className="" role="button" onClick={handleDrop}>
                   {" "}

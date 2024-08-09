@@ -26,7 +26,7 @@ const Hero = () => {
             Find your perfect home among our curated properties. Start browsing
             now!
           </p>
-          <div className=" p-4 row container  justify-content-center hero-search ">
+          <div className=" p-4  row container  justify-content-center hero-search ">
             <div
               action=""
               className="col-md-9 d-lg-flex bg-white p-3 justify-content-between search-form align-items-center "
@@ -66,7 +66,7 @@ const Hero = () => {
             {/* submit btn div */}
             <div className=" col-md-3 find-property ">
               <button className="text-center rounded p-3 submit-btn text-white mt-3 mx-5">
-                Find Property
+                Find Property 
               </button>
             </div>
           </div>
